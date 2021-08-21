@@ -1,0 +1,30 @@
+.button {
+  background-color: cadetblue;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: lowercase;
+  transition: background-color 0.25s linear;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: darkcyan;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  background-color: lightslategrey;
+  opacity: 0.75;
+}
+
+.sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+
+.md {
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+}
